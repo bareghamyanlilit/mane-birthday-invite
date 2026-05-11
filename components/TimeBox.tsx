@@ -67,7 +67,7 @@ export function TimeBox() {
 }
 
 const TimeBoxItem = ({ label, value }: any) => (
-  <div className="px text-center ">
+  <div className="px-1 text-center ">
     <h2 className="mt-1 text-4xl ">{value}</h2>
     <p className=" text-xl">{label}</p>
   </div>

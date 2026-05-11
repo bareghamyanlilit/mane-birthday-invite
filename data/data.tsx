@@ -1,7 +1,7 @@
 
 export const date = "24/05/2026"
 
-export const dateTimeBox: any = new Date("2026-06-24T16:00:00");
+export const dateTimeBox: any = new Date("2026-05-24T16:00:00");
 
 export const txt1Title = "Սիրելի՛ \nընկերներ և \nբարեկամներ";
 
