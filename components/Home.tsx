@@ -13,6 +13,7 @@ import {
 import { motion } from "framer-motion";
 import { Footer } from "./footer";
 import { TimeBox } from "./TimeBox";
+import OneYearCard from "./Atam";
 
 export function Home() {
   // const [openEnvelope, setOpenEnvelope] = useState(false);
@@ -63,14 +64,14 @@ export function Home() {
       </div> */}
 
       <div className=" FontArmDecorative tracking-[10%] leading-12 bg-cover bg-center m-auto max-w-md pb-10 " style={{ backgroundImage: `url("/bg.png")` }}>
-
-        <Image
+<OneYearCard/>
+        {/* <Image
           src="/img1.png"
           alt="img"
           width={500}
           height={500}
           className="w-full object-cover h-dvh"
-        />
+        /> */}
         <motion.h2 {...anim} className=" leading-12 text-2xl my-20 font-bold">
           {txt1Title}
         </motion.h2>

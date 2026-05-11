@@ -32,6 +32,13 @@
 }
 .FontBraindDoctor{
   font-family: "BraindDoctor";
+}
+@font-face {
+  font-family:"ArchivoBlack" ;
+  src: url('/font/ArchivoBlack-Regular.ttf');
+}
+.FontArchivoBlack{
+  font-family: "ArchivoBlack";
   
 }
 /* //////////////////////////////////////////// */
