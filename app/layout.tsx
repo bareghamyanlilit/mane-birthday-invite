@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     siteName: "Մանե",
     images: [
       {
-        url: "/img1.jpg",
+        url: "/img1.png",
         width: 1200,
         height: 630,
       },
