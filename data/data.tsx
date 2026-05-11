@@ -12,7 +12,7 @@ export const txt2 =
   "Կսպասենք ձեզ Rubina hall ռեստորանում";
 
 
-export const address = "Հասցե ` Մերձավանի խճուղի, համար 7 Ժամը 16:00";
+export const address = "Հասցե ` Մերձավանի խճուղի, համար 7, \nԺամը՝ 16:00";
 
 
 export const anim: any = {
