@@ -39,7 +39,7 @@ export default function OneYearCard() {
                             <image
                                 href="/mek.jpg"
                                 x="-90"
-                                y="-30"
+                                y="0"
                                 width="315"
                                 height="520"
                                 preserveAspectRatio="xMidYMid slice"
