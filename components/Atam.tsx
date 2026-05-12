@@ -26,7 +26,7 @@ export default function OneYearCard() {
                 {/* SVG */}
                 <svg
                     viewBox="0 0 315 520"
-                    className="absolute inset-0 w-full h-full"
+                    className="relative mx-auto inset-0 w-full h-full"
                 >
                     <defs>
                         {/* 1-ի նկար */}
@@ -66,10 +66,8 @@ export default function OneYearCard() {
 
                     {/* 1 թիվ */}
                     <text
-                    className="left-1/2   translate-x-[55%] top-1/2 translate-y-[45%]"
-                        transform="scale(1.2) "
-                        textAnchor="middle"
-                        fontSize="390"
+                        className="left-1/2 absolute translate-x-1/7 top-1/2 translate-y-[45%]"
+                        fontSize="450"
                         fontWeight="900"
                         fontFamily="ArchivoBlack"
                         fontVariant={"all-small-caps"}
@@ -77,10 +75,11 @@ export default function OneYearCard() {
                     >
                         1
                     </text>
-{/* Ատամ (Ավելի գեղեցիկ և բնական ձև) */}
-<g transform="scale(1.1) translate(-20 -35)">
-  <path
-    d="
+
+                    {/* Ատամ (Ավելի գեղեցիկ և բնական ձև) */}
+                    <g transform="scale(1.1) translate(-20 -35)">
+                        <path
+                            d="
       M200 300
       C240 285 265 320 258 360
       C252 395 238 430 228 465
@@ -99,10 +98,10 @@ export default function OneYearCard() {
       C142 310 190 310 200 300
       Z
     "
-    fill="url(#toothImage)"
-    strokeWidth="4"
-  />
-</g>
+                            fill="url(#toothImage)"
+                            strokeWidth="4"
+                        />
+                    </g>
                 </svg>
             </div>
         </div>
