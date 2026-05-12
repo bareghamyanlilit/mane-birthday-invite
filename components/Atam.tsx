@@ -39,7 +39,7 @@ export default function OneYearCard() {
                             <image
                                 href="/mek.jpg"
                                 x="-90"
-                                y="-40"
+                                y="-30"
                                 width="315"
                                 height="520"
                                 preserveAspectRatio="xMidYMid slice"
@@ -56,9 +56,9 @@ export default function OneYearCard() {
                             <image
                                 href="/atam.jpg"
                                 x="0"
-                                y="-60"
-                                width="220"
-                                height="240"
+                                y="-100"
+                                width="320"
+                                height="340"
                                 preserveAspectRatio="xMidYMid slice"
                             />
                         </pattern>
@@ -66,8 +66,9 @@ export default function OneYearCard() {
 
                     {/* 1 թիվ */}
                     <text
-                        x="177.5"
-                        y="210"
+                        x="50%"
+                        transform="scale(1.2)"
+                        y="38%"
                         textAnchor="middle"
                         fontSize="390"
                         fontWeight="900"
@@ -77,23 +78,32 @@ export default function OneYearCard() {
                     >
                         1
                     </text>
+{/* Ատամ (Ավելի գեղեցիկ և բնական ձև) */}
+<g transform="scale(1.1) translate(-20 -40)">
+  <path
+    d="
+      M200 300
+      C240 285 265 320 258 360
+      C252 395 238 430 228 465
+      C223 482 214 500 202 500
 
-                    {/* Ատամ (MECACVAC + CENTERED) */}
-                    <g transform=" scale(1.25) translate(-30 -80) ">
-                        <path
-                            d="
-      M157 315
-      C195 300 245 320 222 380
-      C240 410 220 470 190 490
-      C175 490 165 470 157 455
-      C149 470 139 500 124 490
-      C94 480 74 390 92 380
-      C89 335 85 315 157 315
+      C190 500 184 470 176 450
+      C170 435 160 432 152 448
+
+      C142 470 135 500 120 500
+      C108 500 100 482 95 462
+
+      C84 425 72 392 68 355
+      C63 310 90 285 120 295
+
+      C140 300 130 300 134 300
+      C142 310 190 310 200 300
       Z
     "
-                            fill="url(#toothImage)"
-                        />
-                    </g>
+    fill="url(#toothImage)"
+    strokeWidth="4"
+  />
+</g>
                 </svg>
             </div>
         </div>
