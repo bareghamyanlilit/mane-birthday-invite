@@ -66,9 +66,8 @@ export default function OneYearCard() {
 
                     {/* 1 թիվ */}
                     <text
-                        x="50%"
-                        transform="scale(1.2)"
-                        y="38%"
+                    className="left-1/2   translate-x-[55%] top-1/2 translate-y-[45%]"
+                        transform="scale(1.2) "
                         textAnchor="middle"
                         fontSize="390"
                         fontWeight="900"
@@ -79,7 +78,7 @@ export default function OneYearCard() {
                         1
                     </text>
 {/* Ատամ (Ավելի գեղեցիկ և բնական ձև) */}
-<g transform="scale(1.1) translate(-20 -40)">
+<g transform="scale(1.1) translate(-20 -35)">
   <path
     d="
       M200 300
