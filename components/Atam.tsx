@@ -14,7 +14,7 @@ export default function OneYearCard() {
                 }}
             >
                 {/* Վերևի ուղղահայաց տեքստ */}
-                <div className="absolute top-[7%] right-[22%] [writing-mode:vertical-rl] rotate-180 text-[#7a4d4d] text-[24px] italic z-10">
+                <div className="absolute top-[7%] right-[25%] [writing-mode:vertical-rl] rotate-180 text-[#7a4d4d] text-[24px] italic z-10">
                     1 տարեկան
                 </div>
 
@@ -38,7 +38,7 @@ export default function OneYearCard() {
                         >
                             <image
                                 href="/mek.jpg"
-                                x="-90"
+                                x="-70"
                                 y="0"
                                 width="315"
                                 height="520"
