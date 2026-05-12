@@ -66,7 +66,7 @@ export default function OneYearCard() {
 
                     {/* 1 թիվ */}
                     <text
-                    className="left-1/2   translate-x-[55%] top-1/2 translate-y-[45%]"
+                    className="left-1/2   translate-x-[50%] top-1/2 translate-y-[45%]"
                         transform="scale(1.2) "
                         textAnchor="middle"
                         fontSize="390"
